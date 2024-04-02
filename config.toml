@@ -1,0 +1,31 @@
+baseURL = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "Your API Documentation"
+theme = "docuapi"
+
+# CloudCannon specific settings
+[params]
+  # Site settings
+  cloudcannon = { editor = true }
+  description = "A comprehensive guide to our API."
+
+# Menu configuration
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "documentation"
+  name = "Documentation"
+  url = "/documentation/"
+  weight = 2
+
+# Taxonomies (if you're using them)
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Placeholder for other configurations
+# This can include specific DocuAPI settings, SEO configurations, etc.
